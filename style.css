@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald:wght@300&family=Roboto:wght@100&display=swap');
+
+.home
+{
+    background-image: url(1.jpg);
+    background-size: 100%;
+
+}
+
+.linelist
+{
+    border-style: solid;
+    background-color: #1d4289;
+    width: 350px;
+    height: 100px;
+    display: inline;
+    position: relative;
+    left: 1585px;
+    bottom: 100px;
+    padding: 10px;
+    color: #1d4289;
+    border-radius: 20px;
+    margin: 5px;
+
+}
+.textli
+{
+    color: white;
+    position: center;
+    text-decoration: none;
+    font-family: "Action NBA Cond Web", 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.text {
+    text-decoration: none;
+    color: white;
+
+}
+.greet
+{
+    height: 100px;
+    width: 100px;
+    display: block; position: relative;
+}
+.start
+{
+    width: 370px;
+    position: relative;
+    left: 90px;
+    bottom: 50px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.info
+{
+    background-image: url(2.jpg);
+    background-size: 100%;
+}
+.back
+{
+    background-color: #1d4289;
+    width: 125px;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+}
+.next
+{
+    background-color: rgb(29, 66, 137);
+    width: 200px;
+    display: flex;
+    position: relative;
+    left: 1650px;
+    bottom: 32px;
+    border-radius: 20px;
+}
+.textnba
+{
+    color: white;
+    background-color: #1d4289;
+    width: 30%;
+    display: flex; position: relative; margin: auto; padding: 10px ;
+    border-style: solid;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    left: 100px;
+    bottom: -100px;
+}
+
+.imgab
+{
+    display: compact;
+    position: relative;
+    height: 600px;
+    width: 450px;
+    bottom: -50px;
+}
+
+.jordan
+{
+    width: 520px;
+    height: 660px;
+    border-radius: 20%;
+    margin-left: 60px;
+}
+.bioj
+{
+    display: flex; position: relative;
+    background-color: #1d4289;
+    color: #ffffff;
+    width: 116px;
+    font-size: 20px;
+    bottom: 0;
+    font-family: 'Oswald', sans-serif;
+    left: 250px;
+}
+
+.kobe
+{
+    width: 520px;
+    height: 660px;
+    border-radius: 20%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.biok
+{
+    display: flex; position: relative;
+    background-color: #1d4289;
+    color: #ffffff;
+    width: 93px;
+    font-size: 20px;
+    bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    left: 880px;
+}
+
+.lebron
+{
+    width: 520px;
+    height: 660px;
+    border-radius: 20%;
+    margin-right: 60px;
+}
+
+.biol
+{
+    display: flex; position: relative;
+    background-color: #1d4289;
+    color: #ffffff;
+    width: 120px;
+    font-size: 20px;
+    bottom: 100px;
+    font-family: 'Oswald', sans-serif;
+    left: 1525px;
+}
+
+.navlist1
+{
+    background-color: rgb(29, 66, 137);
+    display: flex;
+    position: center;
+    margin-left: auto;
+    bottom: 1000px;
+    width: 20%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+.bdylgn
+{
+    background-color: black;
+}
+
+div.cursors div
+{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    width: 16px;
+    height: 16px;
+    background-color: rgb(29, 66, 137);
+    border-radius: 50%;
+    z-index: 10000;
+    pointer-events: none;
+}
+div.cursors div span
+{
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 300px;
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+div.cursors div span.visible
+{
+    opacity: 1;
+}
